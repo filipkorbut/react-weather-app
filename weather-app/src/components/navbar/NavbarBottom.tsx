@@ -4,13 +4,13 @@ const NavbarBottom = () => {
       "POLAND",
       "EUROPE",
       "WORLD",
-      "30-DAY FORECAST",
+      "16-DAY FORECAST",
       "AIR QUALITY",
       "OTHER CITIES",
     ];
   
     return (
-      <ul className="navbar-center list-group list-group-horizontal">
+      <ul className="navbar-center list-group list-group-horizontal d-flex justify-content-center">
         {navItems.map((item, index) => (
           <li key={index} className="list-group-item">
             <a
