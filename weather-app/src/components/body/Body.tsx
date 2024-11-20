@@ -1,14 +1,12 @@
-import { weatherData } from "../weather-api/WeatherFetchData";
+import WeatherFetchData from "../weather-api/WeatherFetchData.js"; "./components/weather-api/WeatherFetchData.tsx"
 
 const Body = () => {
     return (
         <div> 
             <h1>Kraków</h1>     
-            <h1> {weatherData.current.temperature2m}</h1>
-            <h1> {weatherData.current.temperature2m}</h1>
-            <h1> {weatherData.current.surfacePressure}</h1>
+            <WeatherFetchData/>
         </div>
     );
 };
 
-export default Body;
+export default Body;    
